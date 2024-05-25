@@ -1,0 +1,23 @@
+.button-1{
+    background-color: rgb(12, 12, 97);
+    color: rgb(227, 227, 227);
+    font-weight: bold;
+}
+
+.button-2{
+    background-color: rgb(237, 237, 17);
+}
+
+.button-1, .button-2{
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
+
+/*
+.fonts{
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
+
+This is a second solution to the project.
+*/
