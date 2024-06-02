@@ -4,10 +4,28 @@
 
 body {
   font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
 }
 
 .info-items {
   display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 52px;
+}
+
+.flex-item{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 32px;
+  max-width: 200px;
+}
+
+.text {
+  text-align: center;
 }
 
 img {
