@@ -8,19 +8,40 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
-  flex: 1;
 }
 
 .header {
+  background-color: #eeeeee;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex: 1
+}
+
+.left-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.right-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+li a{
+  text-decoration: none;
+  padding: 10px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 8
 }
 
 img {
@@ -42,6 +63,9 @@ input {
 }
 
 .footer {
+  background-color: #eeeeee;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex: 1;
 }
