@@ -11,12 +11,11 @@ body {
 }
 
 .header {
-  background-color: #eeeeee;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex: 1;
-  padding: 3px;
+  /*flex: 1;*/
+  padding: 10px;
 }
 
 .left-links {
@@ -49,7 +48,7 @@ li a:hover{
   align-items: center;
   gap: 8px;
   justify-content: center;
-  flex: 10;
+  flex: 1;
 }
 
 img {
@@ -76,6 +75,6 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex: 1;
-  padding: 3px;
+  /*flex: 1;*/
+  padding: 10px;
 }
