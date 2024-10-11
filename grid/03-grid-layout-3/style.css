@@ -17,11 +17,26 @@
 
 .header {
   background-color: #393f4d;
+  display: grid;
+  grid-template-columns: 1.2fr 1.8fr;
+  align-items: center;
 }
 
-.menu ul,
+.logo {
+  justify-self: start;
+  cursor: pointer;
+}
+
 .menu li {
-  font-size: 16px;
+  font-size: 14px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 18px;
 }
 
 .sidebar {
